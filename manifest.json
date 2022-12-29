@@ -1,0 +1,19 @@
+{
+    "name": "Urban Dictionary",
+    "description": "Search up words through this extension with a funny definition",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "background":
+    {
+        "service_worker": "background.js"
+},
+    "permissions":[
+        "contextMenus",
+        "tabs"
+    ],
+    "icons":
+    {
+       "17": "17.png"
+    }
+    
+}
